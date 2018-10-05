@@ -5,9 +5,11 @@
     <title>Viewscript</title>
 </head>
 <body>
-    <div>
-        We've renamed from Viewscript to QScript. <br />
-        Please see: <a href="https://wmfs.github.io/qscript/">QScript</a>
+    <div class="fixed-center text-center">
+        <p>We've renamed from Viewscript to QScript.</p>
+        <button>
+            <a href="https://wmfs.github.io/qscript/">See QScript</a>
+        </button>
     </div>
 </body>
 </html>
@@ -15,6 +17,44 @@
 <style>
     body {
         font-family: Roboto, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif;
-        padding: 58px;
+    }
+
+    .fixed-center {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: fixed;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    button {
+        background-color: #33b7bc;
+        border-radius: 3px;
+        border: 0;
+        outline: 0;
+        padding: 8px 24px;
+        font-size: 22px;
+        cursor: pointer;
+        box-shadow: 0 1px 5px rgba(0,0,0,0.2), 0 2px 2px rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
+    }
+
+    button:active {
+        box-shadow: 0 5px 5px -3px rgba(0,0,0,0.2), 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12);
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    p {
+        font-size: 34px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: normal;
+        color: #777;
     }
 </style>
