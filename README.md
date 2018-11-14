@@ -1,4 +1,4 @@
 # viewscript
 
-### We have renamed from Viewscript to QScript!
-### Please see: [QScript](https://github.com/wmfs/qscript)
+### We have renamed from Viewscript to Cardscript!
+### Please see: [Cardscript](https://github.com/wmfs/cardscript)
